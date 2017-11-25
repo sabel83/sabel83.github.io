@@ -1,0 +1,341 @@
+.sima_cim, p.title
+{
+  font-size:22px;
+  font-weight:bold;
+  text-align:center;
+}
+
+.sima_alcim, h1
+{
+  font-size:20px;
+  font-weight:bold;
+  text-align:left;
+  padding-left: 20px;
+}
+
+.sima_alalcim, h2
+{
+  font-size:18px;
+  font-weight:bold;
+  text-align:left;
+  padding-left: 30px;
+}
+
+.sima_alaltorzs
+{
+  padding-left: 40px;
+}
+
+.fejlec_cella
+{
+  background-color: #D0D0FF;
+  font-weight: bold;
+  text-align: center;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 1px;
+  border-right: 1px;
+  border-style: solid;
+  border-color: #F0F0FF;
+}
+
+.paros_sor_cella
+{
+  background-color: #E0E0FF;
+  text-align: left;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 1px;
+  border-right: 1px;
+  border-style: solid;
+  border-color: #F0F0FF;
+}
+
+.paratlan_sor_cella
+{
+  background-color: #F0F0FF;
+  text-align: left;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 1px;
+  border-right: 1px;
+  border-style: solid;
+  border-color: #F0F0FF;
+}
+
+/*
+  General
+*/
+body
+{
+  background-color: #f0f0ff;
+  font-size: 14px;
+
+  font-family: Tahoma, Arial;
+  list-style-image: url("/images/potty2.png");
+}
+
+a
+{
+  text-decoration: none;
+}
+
+a.album_cim
+{
+  text-align: center;
+  font-size: 12px;
+
+  text-decoration: none;
+}
+
+.hiba
+{
+  text-align: center;
+
+  border-width: 4px;
+  border-style: solid;
+  border-color: #454598;
+
+  color: #fff0f0;
+  background-color: #000080;
+
+  font-weight: bold;
+}
+
+.szoveg_mezo
+{
+  border-width: 2px;
+  border-style: solid;
+  border-color: #454598;
+}
+
+.gomb
+{
+  border-width: 0px;
+
+  background-image: url("gomb_hatt2.gif");
+  color: #ffffff;
+
+  width: 106px;
+  height: 26px;
+
+  cursor: pointer;
+}
+
+.cim
+{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.alcim
+{
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.banner_class
+{
+  text-align:center;
+  padding:0px;
+  margin:0px;
+}
+
+
+.mezo_nev
+{
+  vertical-align: top;
+  font-weight: bold;
+
+  background-color: #e4e4ff;
+  padding: 5px;
+
+  width: 37%;
+}
+
+.normal_mezo_nev
+{
+  vertical-align: top;
+
+  background-color: #e4e4ff;
+  padding: 5px;
+
+  width: 37%;
+}
+
+.normal_mezo_ertek, .mezo_ertek
+{
+  vertical-align: top;
+
+  background-color: #e4e4ff;
+  padding: 5px;
+}
+
+.source_code, p.code
+{
+  margin: 10px;
+  padding: 8px;
+
+  font-family: Courier;
+
+  border-color: #000000;
+  border-width: 1px;
+  border-style: solid;
+}
+
+a.code
+{
+  font-family: Courier;
+}
+
+/*
+  Design of the frame library
+*/
+.frame
+{
+  border-color: #ffffff;
+  border-width: 0px;
+  border-style: solid;
+}
+
+.frame_title
+{
+  background-color: #d0d0ff;
+  background-image: url("/images/csik3.png");
+  background-repeat: no-repeat;
+  height: 26px;
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+
+  border-color: #000040;
+  border-width: 0px;
+  border-style: solid;
+
+  font-size: 14px;
+  padding-left: 3px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+  padding-right: 20px;
+
+  font-weight: bold;
+}
+
+a.frame_title_link:link, a.frame_title_link:visited
+{
+  color: #0000FF;
+  font-weight: 600;
+  text-decoration: none;
+
+  font-size: 14px;
+}
+
+.frame_content
+{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 5px;
+  color: #000000;
+  width: 100%;
+
+  border-color: #000040;
+  border-width: 0px;
+  border-style: solid;
+
+  font-size: 14px;
+}
+
+.menu_item
+{
+  padding-left: 3px;
+
+  background-repeat: repeat-y;
+
+  cursor: pointer;
+}
+
+.menu_item:hover
+{
+  padding-left: 8px;
+
+  color: #ffffff;
+  background-image: url("/images/menuki.png");
+  background-repeat: repeat-y;
+
+  cursor: pointer;
+}
+
+a.menu_item_link_active
+{
+  color: #0000ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.menu_item_link, a.menu_item_link:visited
+{
+  color: #0000ff;
+  text-decoration: none;
+}
+
+a.menu_item_link:hover
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.apn_cella
+{
+  padding: 5px;
+
+  vertical-align: top;
+
+  background-color: #DBDBF2;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: #464699;
+
+  list-style-image: url("/images/potty3.png");
+}
+
+.apn_fejlec_cella
+{
+  text-align: center;
+
+  background-color: #464699;
+  color: #F0F0FF;
+
+  padding: 2px;
+
+  border-width: 0px;
+  border-color: #DBDBF2;
+  border-style: solid;
+}
+
+.apn_tabla
+{
+  border-width: 1px;
+  border-style: solid;
+  border-color: #464699;
+}
+
+.openable
+{
+  display: none;
+}
+
+.video_left, .title_left
+{
+  vertical-align: top;
+  width: 50%;
+}
+
+.video_right, .title_right
+{
+  vertical-align: top;
+  width: 50%;
+}
+

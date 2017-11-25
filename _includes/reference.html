@@ -1,0 +1,50 @@
+<p class='sima_alcim'>
+  {% case include.lang %}
+    {% when "hu" %}Leírás
+    {% when "de" %}Details
+    {% when "en" %}Description
+  {% endcase %}
+</p>
+
+<p>
+{% include content/{{ include.lang }}/{{ page.reference_id }}.html summary=false %}
+</p>
+
+<br />
+
+<p class='sima_alcim'>
+  {% case include.lang %}
+    {% when "hu" %}Képek
+    {% when "de" %}Bilder
+    {% when "en" %}Screenshots
+  {% endcase %}
+</p>
+<table align='center' cellpadding='5px' cellspacing='0' border='0'>
+{% assign img_num = site.data.references.data[page.reference_id].img_num %}
+{% assign row_num = img_num | plus: 2 | divided_by: 3 | minus: 1 %}
+{% for row in (0..row_num) %}
+  <tr>
+    {% for col in (0..2) %}
+      {% assign img = row | times: 3 | plus: col %}
+      <td width='160px' style='text-align:center'>
+        {% if img < img_num %}
+          <a href='/images/{{ page.reference_id }}/{{ page.reference_id }}{{ img }}.png' target='kep_nagyobban'><img src='/images/{{ page.reference_id }}/thumb/{{ page.reference_id }}{{ img }}.png' alt='' width='160' height='120' border='0'/></a>
+        {% else %}
+          &nbsp;
+        {% endif %}
+      </td>
+    {% endfor %}
+  </tr>
+{% endfor %}
+</table>
+
+<p style='text-align:center'>
+  <br />
+  <a href='/references'>
+    {% case include.lang %}
+      {% when "hu" %}Visszatérés a referenciák listájához
+      {% when "de" %}Zurück zu den Referenzen
+      {% when "en" %}Return to my references
+    {% endcase %}
+  </a>
+</p>

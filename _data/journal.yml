@@ -1,0 +1,18 @@
+brevzin:
+  title: "Just a blog about C++"
+  url: "https://brevzin.github.io/"
+lurklurk:
+  title: "Home Page for David Drysdale"
+  url: "https://www.lurklurk.org/"
+overload:
+  title: ACCU Overload
+  url: "https://accu.org/index.php/journals/c78/"
+real_python:
+  title: Real Python
+  ur: "https://realpython.com/"
+simplify_cpp:
+  title: Simplify C++
+  url: "https://arne-mertz.de"
+wg21:
+  title: "C++ Standards Committee Papers"
+  url: "http://www.open-std.org/jtc1/sc22/wg21/docs/papers"

@@ -1,0 +1,30 @@
+code_dive:
+  name: code::dive
+  url: http://codedive.pl/
+cpp_and_beyond:
+  name: C++ and Beyond
+  url: https://cppandbeyond.wordpress.com/
+cppcon:
+  name: CppCon
+  url: https://cppcon.org/
+cppnow:
+  name: C++Now
+  url: http://cppnow.org/
+devternity:
+  name: DevTernity
+  url: https://devternity.com/
+going_native:
+  name: GoingNative
+  url: https://channel9.msdn.com/Shows/C9-GoingNative
+lambda_world:
+  name: Lambda World
+  url: http://www.lambda.world/
+meetingcpp:
+  name: Meeting C++
+  url: http://meetingcpp.com/
+ndc_london:
+  name: NDC London
+  url: https://ndc-london.com/
+swedencpp:
+  name: SwedenCpp
+  url: https://www.meetup.com/swedencpp/

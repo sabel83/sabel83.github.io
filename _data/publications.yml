@@ -1,0 +1,80 @@
+- author: Ábel Sinkovics
+  title: The connection between C++ template metaprogramming and functional programming
+  desc: Eötvös Loránd University, Faculty of Informatics, 2013.
+  file: Sinkovics_Abel_Ertekezes.pdf
+  type: thesis
+- author: Ábel Sinkovics, Zoltán Pokroláb
+  title: Domain-Specific Language Integration with C++ Template Metaprogramming
+  desc: "In Marjan Mernik (Ed): Formal and Practical Aspects of Domain-Specific Languages: Recent Developments. Published by Information Science Reference (an imprint of IGI Global), Hershey PA, USA. ISBN 978-1-4666-2092-6 (hardcover) - ISBN 978-1-4666-2093-3 (ebook) - ISBN 978-1-4666-2094-0 pp. 33-56. doi:10.4018/978-1-4666-2092-6.ch002"
+  type: book_chapter
+- author: Ábel Sinkovics, Zoltán Porkoláb
+  title: Implementing monads for C++ template metaprograms
+  desc: "In Science of Computer Programming, Available online 23 January 2013, ISSN 0167-6423, 10.1016/j.scico.2013.01.002. (<a href='http://www.sciencedirect.com/science/article/pii/S0167642313000051'>http://www.sciencedirect.com/science/article/pii/S0167642313000051</a>)"
+  file: metamonad.pdf
+  type: paper
+- author: Ábel Sinkovics, Zoltán Porkoláb
+  title: Metaparse - Compile-time Parsing with C++ Template Metaprogramming
+  desc: In C++Now! Aspen, Colorado, 15th May, 2012.
+  url: http://cppnow.org/files/2012/04/Sinkovics.Porkol%C3%A1b.pdf
+  type: paper
+  bibtex: sinkovics:cppnow2012
+- author: Ábel Sinkovics, Endre Sajó, Zoltán Porkoláb
+  title: Towards more reliable C++ template metaprograms
+  desc: "In Jaan Penjam: 12th Symposium on Programming Languages and Software Tools (SPLST'11), Tallinn, Estonia, 5-7 October, 2011., pp. 260-271."
+  file: metatest.pdf
+  type: paper
+  bibtex: sinkovics:reliable
+- author: Ábel Sinkovics, Zoltán Porkoláb
+  title: Implementing Monads for C++ Template Metaprograms
+  desc: "Technical Report TR-01/2011, Eötvös Loránd University, Faculty of Informatics, Dept. of Programming Languages and Compilers, September 2011."
+  url: http://plcportal.inf.elte.hu/en/publications/TechnicalReports/monad-tr.pdf
+  type: paper
+  bibtex: sinkovics:monad-tr
+- author: Ábel Sinkovics
+  title: Nested Lamda Expressions with Let Expressions in C++ Template Metaprorgams
+  desc: "In Zoltán Porkoláb, Nortbert Pataki: Proceedings of Workshop of Generative Technologies (WGT'11), Saarbrücken, Germany, 27th March, 2011., pp. 63-76."
+  file: let.pdf
+  type: paper
+  bibtex: sinkovics:wgt11
+- author: Ábel Sinkovics
+  title: Unit testing of C++ template metaprograms
+  desc: "In Proceedings of the 8th Joint Conference on Matematics and Computer Science, MaCS 2010, Selected papers, pp. 375-384"
+  file: tmptest.pdf
+  type: paper
+  bibtex: sinkovics:babes10
+- author: Ábel Sinkovics
+  title: Functional Extensions to the Boost Metaprogram Library
+  desc: "In Electr. Notes Theor. Comput. Sci., 264(5):85-101, 2010"
+  file: boost_ext.pdf
+  type: paper
+  bibtex: sinkovics:entcs10
+- author: Zoltán Porkoláb, Ábel Sinkovics
+  title: Domain-specific Language Integration with Compile-time Parser Generator Library
+  desc: "In Eelco Visser, Jaakko Järvi, editors, Proceedings of the ninth international conference on Generative programming and component engineering (GPCE 2010). ACM, October 2010, pp. 137-146."
+  file: dsltemp.pdf
+  type: paper
+  bibtex: sinkovics:gpce10
+- author: Ábel Sinkovics
+  title: Functional Extensions to the Boost Metaprogram Library
+  desc: "In Zoltán Porkoláb, Nortbert Pataki: Proceedings of Workshop of Generative Technologies (WGT'10), Paphos, Cyprus, 27th March, 2010., pp. 56-66."
+  file: boost.pdf
+  type: paper
+  bibtex: sinkovics:wgt10
+- author: Zalán Szügyi, Ábel Sinkovics, Nortbert Pataki, Zoltán Porkoláb
+  title: C++ Metastring Library and its Applications
+  desc: "In Proceedings of Generative and Transformational Techniques in Software Engineering 2009, LNCS 6491, pp. 467-486"
+  file: metastring.pdf
+  type: paper
+  bibtex: szugyi:gttse09
+- author: Ábel Sinkovics, Zoltán Porkoláb
+  title: Expressing C++ Template Metaprograms as Lamda Expressions
+  desc: "In Zoltán Horváth, Viktória Zsók, Peter Achten, Pieter Koopman (eds): Proceedings of Tenth Symposium on Trends in Functional Programming, Komárno, Slovakia, 2-4 June 2009, pp. 97-111."
+  file: lambda.pdf
+  type: paper
+  bibtex: sinkovics:tfp09
+- author: Ábel Sinkovics, Zoltán Porkoláb
+  title: Recursive and Dynamic Structures in Generic Programming
+  desc: "In Frentiu et al ed.: Studia Universitatis Babes-Bolyai Informatica LIII 2008/2, Cluj-Napoca, 2008, pp. 93-104"
+  file: recDynamic.pdf
+  type: paper
+  bibtex: sinkovics:babes08

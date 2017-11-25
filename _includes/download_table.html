@@ -1,0 +1,47 @@
+<table width='100%' align='center' cellspacing='10px' cellpadding='0' border='0'>
+
+{% for dwn in include.items %}
+  {% if dwn.gen_title %}
+    {% assign show = true %}
+  {% elsif dwn.title[include.lang] %}
+    {% assign show = true %}
+  {% else %}
+    {% assign show = false %}
+  {% endif %}
+
+  {% if show %}
+    <tr>
+      <td class='mezo_nev' style='width:60%'>
+        {{ dwn.gen_title }}{{ dwn.title[include.lang] }}
+        {% case dwn.type %}
+          {% when "bibtex" %}
+          {% when "slides" %} ({% case include.lang %}
+              {% when "hu" %}diák,
+              {% when "de" %}Folien,
+              {% when "en" %}slides,
+            {% endcase %}
+            {% if dwn.conf %}{{ dwn.conf }},{% endif %}
+            {{ dwn.year }})
+          {% when "installer" %}
+          {% when "source" %}
+        {% endcase %}
+      </td>
+      <td class='mezo_ertek' style='width:40%;text-align:right'>
+        {% if dwn.file %}
+          <a href='/download/{{ dwn.file }}'>
+        {% elsif dwn.url %}
+          <a href='{{ dwn.url }}'>
+        {% endif %}
+            {% case include.lang %}
+              {% when "hu" %}Letöltés
+              {% when "de" %}Herunterladen
+              {% when "en" %}Download
+            {% endcase %}
+          </a>
+        ({{ dwn.size }})
+      </td>
+    </tr>
+  {% endif %}
+{% endfor %}
+
+</table>

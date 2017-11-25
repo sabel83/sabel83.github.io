@@ -1,0 +1,28 @@
+{% if include.video.youtube != null %}
+  {% assign url = 'https://www.youtube.com/watch?v=' | append: include.video.youtube %}
+  {% assign img = 'youtube/youtube_' | append: include.video.youtube %}
+{% elsif include.video.channel9 != null %}
+  {% assign url = 'https://channel9.msdn.com/' | append: include.video.channel9 %}
+  {% assign img = 'channel9/' | append: include.video.channel9 %}
+{% else %}
+  {% assign url = '' %}
+  {% assign img = '' %}
+{% endif %}
+
+{% if include.title %}
+  <p>
+    {% assign first = true %}
+    {% for presenter in include.video.presenter %}{% if first %}
+        {% assign first = false %}
+      {% else %},{% endif %}
+  
+      {{ site.data.people[presenter].name }}{% endfor %}:
+    <a href='{{ url }}'><b>{{ include.video.title }}</b></a>,
+    <a href='{{ site.data.conf[include.video.conf].url }}'>{{ site.data.conf[include.video.conf].name }}</a>,
+    {{ include.video.year }}.
+  </p>
+{% else %}
+  <a href='{{ url }}'>
+    <img src='/images/{{ img }}.jpg' width='100%' />
+  </a>
+{% endif %}

@@ -1,0 +1,83 @@
+{% assign first = true %}
+{% for talk in site.data.talks %}
+  {% if first %}
+    {% assign first = false %}
+  {% else %}
+    <br />
+    <br />
+    <br />
+  {% endif %}
+
+  <p>{{ talk.presenter }}: <br />
+  <a href='https://www.youtube.com/watch?v={{ talk.youtube }}'>
+  <b>{{ talk.title }}</b></a>,<br />
+  {{ talk.conf }}, {{ talk.location }}, {{ talk.date }}<br />
+  <a href='{{ talk.abstract_url }}'>
+    {% case include.lang %}
+      {% when "hu" %}abstract
+      {% when "de" %}Abstract
+      {% when "en" %}abstract
+    {% endcase %}
+  </a><br />
+  <a href='{{ talk.slides_url }}'>
+    {% case include.lang %}
+      {% when "hu" %}diák
+      {% when "de" %}Folien
+      {% when "en" %}slides
+    {% endcase %}
+  </a>
+  </p>
+  
+  <a href='https://www.youtube.com/watch?v={{ talk.youtube }}'>
+    <img src='/images/youtube/youtube_{{ talk.youtube }}.jpg' />
+  </a>
+
+{% endfor %}
+
+<p class='sima_cim'>
+  {% case include.lang %}
+    {% when "hu" %}Publikációk
+    {% when "de" %}Publikationen
+    {% when "en" %}Publications
+  {% endcase %}
+</p>
+
+{% for pub in site.data.publications %}
+  <p>
+    {{ pub.author }}: <br />
+    {% if pub.url %}<a href='{{ pub.url }}'>{% endif %}
+    {% if pub.file %}<a href='/download/{{ pub.file }}'>{% endif %}
+      <b>{{ pub.title }}</b>
+    {% if pub.url %}</a>{% endif %}{% if pub.file %}</a>{% endif %}, <br />
+    {% case pub.type %}
+      {% when "thesis" %}
+        {% case include.lang %}
+          {% when "hu" %}Doktori értekezés,
+          {% when "de" %}Doktorarbeit,
+          {% when "en" %}Doctoral dissertation,
+        {% endcase %}
+      {% when "book_chapter" %}
+      {% when "paper" %}
+    {% endcase %}
+    {{ pub.desc }}
+    {% if pub.bibtex %}
+      <br />
+      <a href='/download/abel_sinkovics.bib'>BibTex</a>:
+      <a class='code'>{{ pub.bibtex }}</a>
+    {% endif %}
+  </p>
+{% endfor %}
+
+<p class='sima_cim'>
+  {% case include.lang %}
+    {% when "hu" %}Letöltések
+    {% when "de" %}Downloads
+    {% when "en" %}Download
+  {% endcase %}
+</p>
+
+{%
+  include download_table.html
+  items=site.data.downloads.publications
+  lang=include.lang
+%}

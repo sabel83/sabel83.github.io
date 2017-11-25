@@ -1,0 +1,291 @@
+- topic:
+    de: Fehlerbehandlung
+    en: Error handling
+    hu: Hibakezelés
+  articles:
+    - title: "The Most Diabolical Python Antipattern"
+      author: aaron_maxwell
+      url: "https://realpython.com/the-most-diabolical-python-antipattern/"
+      journal: real_python
+      year: 2014
+  videos:
+    - title: "The Absurdity of Error Handling: Finding a Purpose for Errors in Safety-Critical SYCL"
+      presenter: [erik_tomusk]
+      conf: cppcon
+      youtube: ZUAPHTbxnAc
+      year: 2023
+    - title: "Exceptionally Bad: The Misuse of Exceptions in C++ & How to Do Better"
+      presenter: [peter_muldoon]
+      conf: cppcon
+      youtube: Oy-VTqz1_58
+      year: 2023
+    - title: A Practical Approach to Error Handling
+      presenter: [arno_schodl]
+      conf: swedencpp
+      youtube: tTz_JRJJrsc
+      year: 2017
+    - title: Seeing the bigger picture part I
+      presenter: [andrzej_krzemienski]
+      conf: code_dive
+      youtube: BhxqWIRUn_U
+      year: 2014
+      on_left: true
+    - title: Seeing the bigger picture part II
+      presenter: [andrzej_krzemienski]
+      conf: code_dive
+      youtube: dczu1ZQwxWI
+      year: 2014
+- topic:
+    de: Quelltext-Architektur
+    en: Code architecture
+    hu: Kódszervezés
+  articles:
+    - title: "Towards a standard unit systems library"
+      author: vincent_reverdy
+      url: "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1930r0.pdf"
+      journal: wg21
+      year: 2019
+    - title: "Use Stronger Types!"
+      author: arne_mertz
+      url: "https://arne-mertz.de/2016/11/stronger-types"
+      journal: simplify_cpp
+      year: 2016
+    - title: Mocks are Bad, Layers are Bad
+      author: [andy_balaam]
+      url: "https://accu.org/var/uploads/journals/Overload127.pdf#page=9"
+      journal: overload
+      year: 2015
+  videos:
+    - title: "Reintroduction to Generic Programming for C++ Engineers"
+      presenter: [nick_demarco]
+      conf: cppcon
+      youtube: tt0-7athgrE
+      year: 2024
+    - title: "Warning: std::find() is Broken!"
+      presenter: [sean_parent]
+      conf: cppcon
+      youtube: 2FAi2mNYjFA
+      year: 2021
+    - title: "Back to Basics: Algebraic Data Types"
+      presenter: [arthur_o_dwyer]
+      conf: cppcon
+      youtube: OJzmWqCCZaM
+      year: 2020
+    - title: "Time Travel: Applying Gradual Typing to Time Types with Clang's LibTooling"
+      presenter: [hyrum_wright]
+      conf: cppcon
+      youtube: VN0VNoykxtk
+      year: 2019
+    - title: "A Unifying Abstraction for Async in C++"
+      presenter: [eric_niebler, david_hollman]
+      conf: cppcon
+      youtube: tF-Nz4aRWAM
+      year: 2019
+    - title: "When C++ Style Guides Contradict"
+      presenter: [nicolai_josuttis]
+      conf: cppcon
+      youtube: WRQ1xqYBKgc
+      year: 2019
+    - title: "Design Rationale for the chrono Library"
+      presenter: [howard_hinnant]
+      conf: meetingcpp
+      youtube: adSAN282YIw
+      year: 2019
+    - title: "The Smart Pointers I Wish I Had"
+      presenter: [matthew_fleming]
+      conf: cppcon
+      youtube: CKCR5eFVrmc
+      year: 2019
+    - title: "A Series of Unfortunate Effects"
+      presenter: [robert_m_avram]
+      conf: lambda_world
+      youtube: y5jZnMImbMY
+      year: 2019
+    - title: "Simplicity: Not Just For Beginners"
+      presenter: [kate_gregory]
+      conf: cppcon
+      youtube: n0Ak6xtVXno
+      year: 2018
+    - title: "Functional programming: Data"
+      presenter: [ivan_cukic]
+      conf: meetingcpp
+      youtube: iYipZw4tS-A
+      year: 2017
+    - title: "Enhanced Support for Value Semantics in C++17"
+      presenter: [michael_park]
+      conf: cppcon
+      youtube: LmiDF2YheAM
+      year: 2017
+    - title: The Nightmare of Move Semantics for Trivial Classes
+      presenter: [nicolai_josuttis]
+      conf: cppcon
+      youtube: PNRju6_yn3o
+      year: 2017
+    - title: Get to grips with asyncio in Python 3
+      presenter: [robert_smallshire]
+      conf: ndc_london
+      youtube: M-UcUs7IMIM
+      year: 2017
+    - title: "Using Types Effectively"
+      presenter: [ben_deane]
+      conf: cppcon
+      youtube: ojZbFIQSdl8
+      year: 2016
+- topic:
+    de: Produktionscode
+    en: Production code
+    hu: Élesben használt kód
+  videos:
+    - title: The Science of Unit Tests
+      presenter: [dave_steffen]
+      conf: cppcon
+      youtube: FjwayiHNI1w
+      year: 2020
+    - title: Source Instrumentation for Monitoring C++ in Production
+      presenter: [steven_simpson]
+      conf: cppcon
+      youtube: 0WgC5jnrRx8
+      year: 2018
+    - title: "TDD, Where Did It All Go Wrong"
+      presenter: [ian_cooper]
+      conf: devternity
+      youtube: EZ05e7EMOLM
+      year: 2017
+    - title: "So, you inherited a large code base..."
+      presenter: [david_sankel]
+      conf: cppcon
+      youtube: B2XtqVZcSdM
+      year: 2017
+- topic:
+    de: Datenverarbeitungsgeschwindigkeit
+    en: Performance
+    hu: Hatékonyság
+  videos:
+    - title: Optimizing Away C++ Virtual Functions May Be Pointless
+      presenter: [shachar_shemesh]
+      conf: cppcon
+      youtube: i5MAXAxp_Tw
+      year: 2023
+    - title: Benchmarking C++ Code
+      presenter: [bryce_adelstein_lelbach]
+      conf: cppcon
+      youtube: zWxSZcpeS8Q
+      year: 2015
+    - title: "Tuning C++: Benchmarks, and CPUs, and Compilers! Oh My!"
+      presenter: [chandler_carruth]
+      conf: cppcon
+      youtube: nXaxk27zwlk
+      year: 2015
+    - title: "Why you should avoid Linked Lists"
+      presenter: [bjarne_stroustrup]
+      conf: going_native
+      youtube: YQs6IC-vgmo
+      year: 2012
+- topic:
+    de: Nebenläufigkeit
+    en: Concurrency
+    hu: Konkurrens programozás
+  videos:
+    - title: "The C++20 Synchronization Library"
+      presenter: [bryce_adelstein_lelbach]
+      conf: meetingcpp
+      youtube: zoMZAV6FEbc
+      year: 2019
+    - title: "Reader-Writer Lock versus Mutex - Understanding a Lost Bet"
+      presenter: [jeffrey_mendelsohn]
+      conf: cppcon
+      youtube: KJS3ikoiLso
+      year: 2017
+    - title: "C++ atomics: from basic to advanced. What do they really do?"
+      presenter: [fedor_pikus]
+      conf: cppcon
+      youtube: ZQFzMfHIxng
+      year: 2017
+    - title: "atomic<> Weapons, 1 of 2"
+      presenter: [herb_sutter]
+      conf: cpp_and_beyond
+      channel9: Shows/Going+Deep/Cpp-and-Beyond-2012-Herb-Sutter-atomic-Weapons-1-of-2
+      year: 2012
+      on_left: true
+    - title: "atomic<> Weapons, 2 of 2"
+      presenter: [herb_sutter]
+      conf: cpp_and_beyond
+      channel9: Shows/Going+Deep/Cpp-and-Beyond-2012-Herb-Sutter-atomic-Weapons-2-of-2
+      year: 2012
+- topic:
+    de: CMake
+    en: CMake
+    hu: CMake
+  videos:
+    - title: Effective CMake
+      presenter: [daniel_pfeifer]
+      conf: cppnow
+      youtube: bsXLMQ6WgIk
+      year: 2017
+    - title: Modern CMake for modular design
+      presenter: [mathieu_ropert]
+      conf: meetingcpp
+      youtube: ztrnb-bVVPo
+      year: 2017
+- topic:
+    de: Unicode
+    en: Unicode
+    hu: Unicode
+  videos:
+    - title: "Unicode Strings: Why the Implementation Matters"
+      presenter: [barbara_geller, ansel_seremsheim]
+      conf: cppnow
+      youtube: ysh2B6ZgNXk
+      year: 2017
+- topic:
+    de: C++ Sprachenelemente
+    en: C++ language features
+    hu: C++ nyelvi elemek
+  articles:
+    - title: "Comparisons in C++20"
+      author: barry_revzin
+      url: "https://brevzin.github.io/c++/2019/07/28/comparisons-cpp20/"
+      journal: brevzin
+      year: 2019
+  videos:
+    - title: "Undefined Behavior in C++: What Every Programmer Should Know and Fear"
+      presenter: [fedor_pikus]
+      conf: cppcon
+      youtube: k9N8OrhrSZw
+      year: 2023
+    - title: "Back to Basics: Understanding Value Categories"
+      presenter: [ben_saks]
+      conf: cppcon
+      youtube: XS2JddPq7GQ
+      year: 2019
+    - title: "Destructor Case Studies: Best Practices for Safe and Efficient Teardown"
+      presenter: [pete_isensee]
+      conf: cppcon
+      youtube: XvWyLAW_U0Q
+      year: 2019
+- topic:
+    de: Compilers
+    en: Compilers
+    hu: Fordítók
+  articles:
+    - title: "Beginner's Guide to Linkers"
+      author: david_drysdale
+      url: "https://www.lurklurk.org/linkers/linkers.html"
+      journal: lurklurk
+      year: 2005
+  videos:
+    - title: "Linkers, Loaders and Shared Libraries in Windows, Linux, and C++"
+      presenter: [ofek_shilon]
+      conf: cppcon
+      youtube: '_enXuIxuNV4'
+      year: 2023
+- topic:
+    de: Template-Metaprogrammierung
+    en: Template metaprogramming
+    hu: Template metaprogramozás
+  videos:
+    - title: A new look at TMP
+      presenter: [ivan_cukic]
+      conf: meetingcpp
+      youtube: Q17nCnXGRQs
+      year: 2018

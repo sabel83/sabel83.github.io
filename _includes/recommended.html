@@ -1,0 +1,82 @@
+{% assign id = 0 %}
+
+{% for topic in site.data.recommended %}
+
+  <p class='sima_cim'><a href='javascript:fold("topic{{ id }}");'>{{ topic.topic[include.lang] }}</a></p>
+
+  <div class='openable' id='topic{{ id }}'>
+
+  <table width='100%' align='center' cellspacing='20%' cellpadding='0' border='0'>
+
+  {% assign has_prev = false %}
+
+  {% for article in topic.articles %}
+    
+    {% if has_prev %}
+      <tr>
+        <td class='title_left' >{% include article.html article=prev_article %}</td>
+        <td class='title_right'>{% include article.html article=article %}</td>
+      </tr>
+      {% assign has_prev = false %}
+    {% else %}
+      {% assign prev_article = article %}
+      {% assign has_prev = true %}
+    {% endif %}
+  {% endfor %}
+
+  {% if has_prev %}
+      <tr>
+        <td class='title_left'>{% include article.html article=prev_article %}</td>
+        <td class='title_right'>&nbsp;</td>
+      </tr>
+  {% endif %}
+
+
+  {% assign has_prev = false %}
+
+  {% for video in topic.videos %}
+    {% if has_prev %}
+      {% if video.on_left %}
+        <tr>
+          <td class='title_left'>{% include video.html title=true video=prev_video %}</td>
+          <td class='title_right'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class='video_left'>{% include video.html title=false video=prev_video %}</td>
+          <td class='video_right'>&nbsp;</td>
+        </tr>
+        {% assign prev_video = video %}
+      {% else %}
+        <tr>
+          <td class='title_left' >{% include video.html title=true video=prev_video %}</td>
+          <td class='title_right'>{% include video.html title=true video=video %}</td>
+        </tr>
+        <tr>
+          <td class='video_left' >{% include video.html title=false video=prev_video %}</td>
+          <td class='video_right'>{% include video.html title=false video=video %}</td>
+        </tr>
+        {% assign has_prev = false %}
+      {% endif %}
+    {% else %}
+      {% assign prev_video = video %}
+      {% assign has_prev = true %}
+    {% endif %}
+  {% endfor %}
+
+  {% if has_prev %}
+        <tr>
+          <td class='title_left'>{% include video.html title=true video=prev_video %}</td>
+          <td class='title_right'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class='video_left'>{% include video.html title=false video=prev_video %}</td>
+          <td class='video_right'>&nbsp;</td>
+        </tr>
+  {% endif %}
+
+  </table>
+
+  </div>
+
+  {% assign id = id | plus: 1 %}
+{% endfor %}

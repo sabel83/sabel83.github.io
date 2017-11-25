@@ -1,0 +1,44 @@
+list:
+  - m3d
+  - ergo
+  - solariumcenter
+  - bol
+  - kabel
+  - galaxis
+data:
+  bol:
+    title:
+      hu: Listák könyve CD alkalmazás
+      de: Book of Lists CD-Anwendung
+      en: Book of lists CD application
+    img_num: 4
+  ergo:
+    title:
+      hu: Szolárium vezérlő szoftver
+      de: Solarium-Controlling Software
+      en: Solarium controlling software
+    img_num: 2
+  galaxis:
+    title:
+      hu: Harc a Galaxisért - valós idejű stratégiai játék
+      de: Fight for the Galaxy - Echtzeit-Strategiespiel
+      en: Fight for the Galaxy - real-time strategy game
+    img_num: 5
+  kabel:
+    title:
+      hu: Portál baráti közösség számára
+      de: Website für meine Freunde
+      en: Community website for my friends
+    img_num: 3
+  m3d:
+    title:
+      hu: Móricz 3D - 3 dimenziós játékprogram
+      de: Móricz 3D - 3D-Computerspiel
+      en: Móricz 3D - 3D computer game
+    img_num: 12
+  solariumcenter:
+    title:
+      hu: Solariumcenter - szolárium stúdiókat összegyűjtő oldal
+      de: Solariumcenter - eine Webseite, die die Solarium-Studios sammelt
+      en: Solariumcenter - website collecting information about solarium studios
+    img_num: 5

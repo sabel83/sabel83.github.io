@@ -1,0 +1,37 @@
+<p>
+  Az oldal bal-felső sarkában megtalálható hogy éppen milyen névnap van.
+  Az emögött rejlő "adatbázis" formátumát írom le.
+</p>
+
+<p>
+  Amit kezelnie kell (és kezel is) a formátum: egy névnek többször is lehet
+  névnapja (pl. Péter nap van április 29.-én és június 29-én is), illetve egy
+  nap nem feltétlenül csak egy nevet ünneplünk (pl. január 19-én van Sára és
+  Márió nap).
+</p>
+<p>
+  A Nevek.dat egy egyszerű TXT fájl, ne tévesszen meg senkit a kiterjesztése.
+  Minden sora egy névnek egy névnapját írja le. (pl. az hogy Pétert április
+  29-én ünnepeljük egy sor, az hogy Pétert június 29-én is ünnepeljük az egy
+  másik sor). A sorokban először szerepel egy szám (hónap), utána szóközzel
+  elválasztva még egy szám (nap), végül szóközzel elválasztva a név. Példa:
+</p>
+
+<p class='source_code'>
+  4 23 Béla
+</p>
+
+<p>
+  A fenti sor azt írja le, hogy Bélának április 23-án van a névnapja. A
+  hónapokat 1-től sorszámozza (az 1 jelenti a januárt). Február 29. nincs... :)
+</p>
+
+<p>
+  Tehát hogyha meg szeretnénk határozni hogy kiknek van janáur 19-én névnapja,
+  végig kell nézni a teljes adatbázist és kigyűjteni az "1 19"-el kezdődő
+  sorokat.
+</p>
+
+<p>
+  <a href='/download/Nevek_dat.zip'>Az adatbázis letöltése</a> (kb. 3 Kb)
+</p>

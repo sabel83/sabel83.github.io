@@ -1,0 +1,22 @@
+{%
+  include download_table.html
+  items=site.data.downloads.pocketpc
+  lang=include.lang
+%}
+
+<br />
+<br />
+
+<p class='sima_cim'>
+  {% case include.lang %}
+    {% when "hu" %}Forráskódok és kapcsolódó fájlok
+    {% when "de" %}Source-Codes und andere Dateien
+    {% when "en" %}Source codes and related files
+  {% endcase %}
+</p>
+
+{%
+  include download_table.html
+  items=site.data.downloads.source
+  lang=include.lang
+%}
