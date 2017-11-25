@@ -1,0 +1,40 @@
+- presenter: Ábel Sinkovics
+  title: Compile-time tools supporting generic programming in C++
+  conf: CppCon
+  location: Bellevue, Washington
+  date: 24th Sept, 2015.
+  abstract_url: http://sched.co/3vmf
+  slides_url: https://github.com/CppCon/CppCon2015/raw/master/Presentations/Compile-time%20tools%20for%20generic%20programming%20in%20C%2B%2B/Compile-time%20tools%20for%20generic%20programming%20in%20C%2B%2B%20-%20Abel%20Sinkovics%20-%20CppCon%202015.pdf
+  youtube: nUXjVVO4YlA
+- presenter: Ábel Sinkovics, András Kucsma
+  title: Interactive Metaprogrmaming Shell based on Clang
+  conf: Meeting C++
+  location: Berlin, Germany
+  date: 6th Dec, 2014.
+  abstract_url: http://meetingcpp.de/index.php/tv14/items/12.html
+  slides_url: http://meetingcpp.de/tl_files/2014/talks/interactive_metaprogramming_shell_based_on_clang.pdf
+  youtube: O-7oFSIlGr8
+- presenter: Ábel Sinkovics
+  title: Interactive Metaprogrmaming Shell based on Clang
+  conf: C++Now!
+  location: Aspen, Colorado
+  date: 15th May, 2014.
+  abstract_url: http://sched.co/1fTKytt
+  slides_url: https://github.com/boostcon/cppnow_presentations_2014/blob/master/files/2014_cppnow_metashell.pdf?raw=true
+  youtube: oCbeXpJKzlM
+- presenter: Ábel Sinkovics
+  title: Boosting MPL with Haskell elements
+  conf: C++Now!
+  location: Aspen, Colorado
+  date: 13th May, 2013.
+  abstract_url: http://cppnow.org/session/boosting-mpl-with-haskell-elements/
+  slides_url: https://github.com/boostcon/cppnow_presentations_2013/blob/master/mon/boosting_mpl_with_haskell_elements.pdf?raw=true
+  youtube: aIj034VCUD8
+- presenter: Zoltán Porkoláb, Ábel Sinkovics
+  title: Metaparse - Compile-time Parsing with C++ Template Metaprogramming
+  conf: C++Now!
+  location: Aspen, Colorado
+  date: 15th May, 2012.
+  abstract_url: http://2012.cppnow.org/session/metaparse-complie-time-parsing-with-template-metaprogramming/
+  slides_url: https://github.com/boostcon/cppnow_presentations_2012/blob/master/tue/metaparse.pdf?raw=true
+  youtube: v3XoWi0XbZk

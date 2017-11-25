@@ -1,0 +1,13 @@
+{% for ref in site.data.references.list %}
+  <p class='sima_alcim'><a href='/{{ ref }}'>{{ site.data.references.data[ref].title[include.lang] }}</a></p>
+  <table width='80%' align='center' border='0' cellspacing='0' cellpadding='5px'>
+  <tr>
+    <td width='130px' style='text-align:center;vertical-align:top;'><a href='/{{ ref }}'><img src='/images/{{ ref }}/{{ ref }}.png' alt='' border='0' /></a></td>
+    <td style='vertical-align:top'>
+      {% include content/{{ include.lang }}/{{ ref }}.html summary=true %}
+    </td>
+  </tr>
+  </table>
+  
+  <br />
+{% endfor %}

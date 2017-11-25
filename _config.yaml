@@ -1,0 +1,11 @@
+# site settings
+title: Website of Ábel Sinkovics
+author: Ábel Sinkovics
+description: "Personal website of Ábel Sinkovics"
+
+# build settings
+port: 4000
+highlighter: pygments
+markdown: karmdown
+permalink: pretty
+

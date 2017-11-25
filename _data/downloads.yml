@@ -1,0 +1,136 @@
+pocketpc:
+  - title:
+      hu: PocketNotes 0.4-es, teszt változata
+      de: PocketNotes 0.4
+      en: PocketNotes 0.4
+    file: PocketNotes_0.4.arm.CAB
+    size: 254 Kb
+    type: installer
+  - title:
+      hu: PocketNotes 0.3-as, teszt változata
+      de: PocketNotes 0.3
+      en: PocketNotes 0.3
+    file: PocketNotes_0.3.arm.CAB
+    size: 230 Kb
+    type: installer
+  - title:
+      hu: Aktuális névnapot megjelenítõ Today elem
+    file: Nevnap_0.1.arm.CAB
+    size: 16 Kb
+    type: installer
+source:
+  - title:
+      hu: Névnapot megjelenítő Today elem forráskódja
+      de: Die Source-Code eines einfachen Today-Plugins
+      en: Source code of a simple Today plugin
+    file: nevnap_src_0_1.zip
+    size: 110 Kb
+    type: source
+  - title:
+      hu: Névnap adatbázis
+    file: Nevek_dat.zip
+    size: 3 Kb
+    type: source
+publications:
+  - gen_title: BibTeX
+    file: abel_sinkovics.bib
+    size: 4 Kb
+    type: bibtex
+  - gen_title: Compile-time tools supporting generic programming in C++ 
+    file: abel_sinkovics_compile_time_tools.pdf
+    size: 2.5 Mb
+    type: slides
+    conf: CppCon
+    year: 2015
+  - gen_title: Interactive Metaprogrmaming Shell based on Clang
+    url: http://meetingcpp.de/tl_files/2014/talks/interactive_metaprogramming_shell_based_on_clang.pdf
+    size: 615 Kb
+    type: slides
+    conf: Meeting C++
+    year: 2014
+  - gen_title: Interactive Metaprogrmaming Shell based on Clang
+    url: https://github.com/boostcon/cppnow_presentations_2014/blob/master/files/2014_cppnow_metashell.pdf?raw=true
+    size: 4.1 Mb
+    type: slides
+    conf: C++Now!
+    year: 2014
+  - gen_title: Embedding domain-specific languages into C++
+    file: 2014_dsl.pdf
+    size: 1.7 Mb
+    type: slides
+    conf: Szoftvertechnológiai Fórum
+    year: 2014
+  - gen_title: Boosting MPL with Haskell elements
+    file: meetingcpp_metamonad.pdf
+    size: 1.7 Mb
+    type: slides
+    conf: Meeting C++
+    year: 2013
+  - gen_title: Unit testing and error handling in C++ template metaprograms
+    file: test_exception.pdf
+    size: 303 Kb
+    type: slides
+    year: 2011
+  - gen_title: Monadic error handling in C++ template metaprograms
+    file: gttse_metamonad.pdf
+    size: 208 Kb
+    type: slides
+    conf: GTTSE
+    year: 2011
+  - gen_title: Monadic error handling in C++ template metaprograms
+    file: cefp_metamonad.pdf
+    size: 156 Kb
+    type: slides
+    conf: CEFP
+    year: 2011
+  - gen_title: Nested Lamda Expressions with Let Expressions in C++ Template Metaprograms
+    file: metalet.pdf
+    size: 204 Kb
+    type: slides
+    conf: WGT
+    year: 2011
+  - gen_title: Domain-specific Language Embedding with C++ Template Metaprogramming
+    file: ms_tmp_dsl.pdf
+    size: 211 Kb
+    type: slides
+    year: 2010
+  - gen_title: Domain-specific Language Integration with Compile-time Parser Generator Library
+    file: tmpdsl.pdf
+    size: 131 Kb
+    type: slides
+    conf: GPCE
+    year: 2010
+  - gen_title: Unit testing C++ template metaprograms
+    file: mpltest.pdf
+    size: 183 Kb
+    type: slides
+    conf: MaCS
+    year: 2010
+  - gen_title: Functional Extensions to the Boost Metaprogram Library
+    file: boost_slides.pdf
+    size: 183 Kb
+    type: slides
+    conf: WGT
+    year: 2010
+  - gen_title: Expressing C++ Template Metaprograms as Lambda expressions
+    file: lambdaSlides.pdf
+    size: 274 Kb
+    type: slides
+    conf: TFP
+    year: 2009
+nevnap:
+  - title:
+      hu: A program 0.1-es változata
+    file: Nevnap_0.1.arm.CAB
+    size: 16 Kb
+    type: installer
+  - title:
+      hu: A program 0.1-es változatának forráskódja
+    file: nevnap_src_0_1.zip
+    size: 110 Kb
+    type: source
+  - title:
+      hu: "A program által használt névnap \"adatbázis\""
+    file: Nevek_dat.zip
+    size: 3 Kb
+    type: source
