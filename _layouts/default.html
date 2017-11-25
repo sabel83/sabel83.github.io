@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+  {% include head.html %}
+
+  <body onload='select_lang(default_lang());'>
+    <table width='80%' cellspacing='0px' cellpadding='0' border='0' align='center'>
+
+    <tr><td>{% include banner.html %}</td></tr>
+
+    <tr><td>
+      <table width='100%' cellspacing='0' cellpadding='0'>
+      <tr>
+        <td style='vertical-align:top;width:120px;'>{% include menu.html %}</td>
+        
+        <td style='vertical-align:top;'>
+          <table width='100%' cellspacing='0' cellpadding='0' border='0' style='
+            background-image: url("/images/gorbe.gif");
+            background-repeat: no-repeat;
+          '>
+          <tr>
+            <td width='5%'><img src='/images/nothing.gif' alt='' width='1px' height='320px' /></td>
+            <td width='90%' style='vertical-align:top;padding-top:30px;'>
+              <div id='content_hu' class='lang_hu' style='display: none;width: 100%;'>{% include content.html lang="hu" %}</div>
+              <div id='content_de' class='lang_de' style='display: none;width: 100%;'>{% include content.html lang="de" %}</div>
+              <div id='content_en' class='lang_en' style='display: inline-block;width: 100%;'><script type='text/javascript'>select_lang(default_lang());</script>{% include content.html lang="en" %}</div>
+              {{content}}
+            </td>
+            <td width='5%'><img src='/images/nothing.gif' alt='' width='1px' height='1px' /></td>
+          </tr></table>
+        </td>
+      </tr>
+      </table>
+    </td></tr>
+
+    <tr><td>{% include footer.html %}</td></tr>
+    
+    </table>
+  </body>
+</html>

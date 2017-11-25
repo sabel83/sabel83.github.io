@@ -1,0 +1,48 @@
+- label:
+    hu: Nyitólap
+    de: Hauptseite
+    en: Front page
+  id: 0
+  href: index
+- label:
+    hu: Önéletrajz
+    de: Lebenslauf
+    en: Curriculum Vitae
+  id: 1
+  href: cv
+- label:
+    hu: Referenciák
+    de: Referenzen
+    en: References
+  id: 2
+  href: references
+- label:
+    hu: Publikációk
+    de: Publikationen
+    en: Publications
+  id: 3
+  href: publications
+- label:
+    hu: Ajánlott tartalom
+    de: Empfohlene Inhalte
+    en: Recommended content
+  id: 4
+  href: recommended
+- label:
+    hu: PDA
+    de: PDA
+    en: PDA
+  id: 5
+  href: pda
+- label:
+    hu: Letöltések
+    de: Downloads
+    en: Downloads
+  id: 6
+  href: download
+- label:
+    hu: Elérhetőségeim
+    de: Kontaktinformationen
+    en: Contact
+  id: 7
+  href: contact
