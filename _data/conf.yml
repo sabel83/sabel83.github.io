@@ -1,0 +1,18 @@
+code_dive:
+  name: code::dive
+  url: http://codedive.pl/
+cpp_and_beyond:
+  name: C++ and Beyond
+  url: https://cppandbeyond.wordpress.com/
+cppcon:
+  name: CppCon
+  url: https://cppcon.org/
+cppnow:
+  name: C++Now
+  url: http://cppnow.org/
+going_native:
+  name: GoingNative
+  url: https://channel9.msdn.com/Shows/C9-GoingNative
+meetingcpp:
+  name: Meeting C++
+  url: http://meetingcpp.com/

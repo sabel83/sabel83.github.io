@@ -321,3 +321,21 @@ a.menu_item_link:hover
   border-style: solid;
   border-color: #464699;
 }
+
+.openable
+{
+  display: none;
+}
+
+.video_left, .title_left
+{
+  vertical-align: top;
+  width: 50%;
+}
+
+.video_right, .title_right
+{
+  vertical-align: top;
+  width: 50%;
+}
+

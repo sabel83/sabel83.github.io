@@ -1,0 +1,103 @@
+- topic:
+    de: Fehlerbehandlung
+    en: Error handling
+    hu: Hibakezelés
+  videos:
+    - title: Seeing the bigger picture part I
+      presenter: [andrzej_krzemienski]
+      conf: code_dive
+      youtube: BhxqWIRUn_U
+      year: 2014
+      on_left: true
+    - title: Seeing the bigger picture part II
+      presenter: [andrzej_krzemienski]
+      conf: code_dive
+      youtube: dczu1ZQwxWI
+      year: 2014
+- topic:
+    de: Quelltext-Architektur
+    en: Code architecture
+    hu: Kódszervezés
+  articles:
+    - title: Mocks are Bad, Layers are Bad
+      author: [andy_balaam]
+      url: "https://accu.org/var/uploads/journals/Overload127.pdf#page=9"
+      journal: overload
+      year: 2015
+  videos:
+    - title: "Functional programming: Data"
+      presenter: [ivan_cukic]
+      conf: meetingcpp
+      youtube: iYipZw4tS-A
+      year: 2017
+    - title: "Enhanced Support for Value Semantics in C++17"
+      presenter: [michael_park]
+      conf: cppcon
+      youtube: LmiDF2YheAM
+      year: 2017
+- topic:
+    de: Datenverarbeitungsgeschwindigkeit
+    en: Performance
+    hu: Hatékonyság
+  videos:
+    - title: Benchmarking C++ Code
+      presenter: [bryce_adelstein_lelbach]
+      conf: cppcon
+      youtube: zWxSZcpeS8Q
+      year: 2015
+    - title: "Tuning C++: Benchmarks, and CPUs, and Compilers! Oh My!"
+      presenter: [chandler_carruth]
+      conf: cppcon
+      youtube: nXaxk27zwlk
+      year: 2015
+    - title: "Why you should avoid Linked Lists"
+      presenter: [bjarne_stroustrup]
+      conf: going_native
+      youtube: YQs6IC-vgmo
+      year: 2012
+- topic:
+    de: Memory model
+    en: Memory model
+    hu: Memory model
+  videos:
+    - title: "C++ atomics: from basic to advanced. What do they really do?"
+      presenter: [fedor_pikus]
+      conf: cppcon
+      youtube: ZQFzMfHIxng
+      year: 2017
+    - title: "atomic<> Weapons, 1 of 2"
+      presenter: [herb_sutter]
+      conf: cpp_and_beyond
+      channel9: Shows/Going+Deep/Cpp-and-Beyond-2012-Herb-Sutter-atomic-Weapons-1-of-2
+      year: 2012
+      on_left: true
+    - title: "atomic<> Weapons, 2 of 2"
+      presenter: [herb_sutter]
+      conf: cpp_and_beyond
+      channel9: Shows/Going+Deep/Cpp-and-Beyond-2012-Herb-Sutter-atomic-Weapons-2-of-2
+      year: 2012
+- topic:
+    de: CMake
+    en: CMake
+    hu: CMake
+  videos:
+    - title: Effective CMake
+      presenter: [daniel_pfeifer]
+      conf: cppnow
+      youtube: bsXLMQ6WgIk
+      year: 2017
+    - title: Modern CMake for modular design
+      presenter: [mathieu_ropert]
+      conf: meetingcpp
+      youtube: ztrnb-bVVPo
+      year: 2017
+- topic:
+    de: Unicode
+    en: Unicode
+    hu: Unicode
+  videos:
+    - title: "Unicode Strings: Why the Implementation Matters"
+      presenter: [barbara_geller, ansel_seremsheim]
+      conf: cppnow
+      youtube: ysh2B6ZgNXk
+      year: 2017

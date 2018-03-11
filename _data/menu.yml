@@ -23,10 +23,16 @@
   id: 3
   href: publications
 - label:
+    hu: Ajánlott tartalom
+    de: Empfohlene Inhalte
+    en: Recommended content
+  id: 4
+  href: recommended
+- label:
     hu: PDA
     de: PDA
     en: PDA
-  id: 4
+  id: 5
   href: pda
 - label:
     hu: Letöltések

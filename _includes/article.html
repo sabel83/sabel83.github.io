@@ -1,0 +1,12 @@
+<p>
+  {% assign first = true %}
+  {% for author in include.article.author %}{% if first %}
+      {% assign first = false %}
+    {% else %},{% endif %}
+
+    {{ site.data.people[author].name }}{% endfor %}:
+  <a href='{{ include.article.url }}'><b>{{ include.article.title }}</b></a>,
+  <a href='{{ site.data.journal[include.article.journal].url }}'>{{ site.data.journal[include.article.journal].title }}</a>,
+  {{ include.article.year }}.
+</p>
+
