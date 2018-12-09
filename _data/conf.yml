@@ -16,3 +16,6 @@ going_native:
 meetingcpp:
   name: Meeting C++
   url: http://meetingcpp.com/
+swedencpp:
+  name: SwedenCpp
+  url: https://www.meetup.com/swedencpp/

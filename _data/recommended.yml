@@ -14,6 +14,11 @@
       conf: code_dive
       youtube: dczu1ZQwxWI
       year: 2014
+    - title: A Practical Approach to Error Handling
+      presenter: [arno_schodl]
+      conf: swedencpp
+      youtube: tTz_JRJJrsc
+      year: 2017
 - topic:
     de: Quelltext-Architektur
     en: Code architecture
@@ -34,6 +39,11 @@
       presenter: [michael_park]
       conf: cppcon
       youtube: LmiDF2YheAM
+      year: 2017
+    - title: The Nightmare of Move Semantics for Trivial Classes
+      presenter: [nicolai_josuttis]
+      conf: cppcon
+      youtube: PNRju6_yn3o
       year: 2017
 - topic:
     de: Datenverarbeitungsgeschwindigkeit

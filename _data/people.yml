@@ -4,6 +4,8 @@ andy_balaam:
   name: Andy Balaam
 ansel_seremsheim:
   name: Ansel Semersheim
+arno_schodl:
+  name: Arno Schödl
 barbara_geller:
   name: Barbara Geller
 bjarne_stroustrup:
@@ -24,3 +26,5 @@ mathieu_ropert:
   name: Mathieu Ropert
 michael_park:
   name: Michael Park
+nicolai_josuttis:
+  name: Nicolai Josuttis
