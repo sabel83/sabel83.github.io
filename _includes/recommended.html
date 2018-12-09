@@ -14,8 +14,8 @@
     
     {% if has_prev %}
       <tr>
-        <td class='title_left' >{% include video.html article=prev_article %}</td>
-        <td class='title_right'>{% include video.html article=article %}</td>
+        <td class='title_left' >{% include article.html article=prev_article %}</td>
+        <td class='title_right'>{% include article.html article=article %}</td>
       </tr>
       {% assign has_prev = false %}
     {% else %}

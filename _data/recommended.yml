@@ -24,6 +24,11 @@
     en: Code architecture
     hu: Kódszervezés
   articles:
+    - title: "Use Stronger Types!"
+      author: arne_mertz
+      url: "https://arne-mertz.de/2016/11/stronger-types"
+      journal: simplify_cpp
+      year: 2016
     - title: Mocks are Bad, Layers are Bad
       author: [andy_balaam]
       url: "https://accu.org/var/uploads/journals/Overload127.pdf#page=9"
