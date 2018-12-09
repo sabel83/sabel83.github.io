@@ -35,6 +35,11 @@
       journal: overload
       year: 2015
   videos:
+    - title: "Simplicity: Not Just For Beginners"
+      presenter: [kate_gregory]
+      conf: cppcon
+      youtube: n0Ak6xtVXno
+      year: 2018
     - title: "Functional programming: Data"
       presenter: [ivan_cukic]
       conf: meetingcpp
