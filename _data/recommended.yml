@@ -51,6 +51,16 @@
       youtube: PNRju6_yn3o
       year: 2017
 - topic:
+    de: Produktionscode
+    en: Production code
+    hu: Élesben használt kód
+  videos:
+    - title: Source Instrumentation for Monitoring C++ in Production
+      presenter: [steven_simpson]
+      conf: cppcon
+      youtube: 0WgC5jnrRx8
+      year: 2018
+- topic:
     de: Datenverarbeitungsgeschwindigkeit
     en: Performance
     hu: Hatékonyság
