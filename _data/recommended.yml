@@ -131,3 +131,13 @@
       conf: cppnow
       youtube: ysh2B6ZgNXk
       year: 2017
+- topic:
+    de: Template-Metaprogrammierung
+    en: Template metaprogramming
+    hu: Template metaprogramozás
+  videos:
+    - title: A new look at TMP
+      presenter: [ivan_cukic]
+      conf: meetingcpp
+      youtube: Q17nCnXGRQs
+      year: 2018
