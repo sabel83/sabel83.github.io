@@ -16,6 +16,9 @@ going_native:
 meetingcpp:
   name: Meeting C++
   url: http://meetingcpp.com/
+ndc_london:
+  name: NDC London
+  url: https://ndc-london.com/
 swedencpp:
   name: SwedenCpp
   url: https://www.meetup.com/swedencpp/

@@ -10,6 +10,8 @@ arno_schodl:
   name: Arno Schödl
 barbara_geller:
   name: Barbara Geller
+barry_revzin:
+  name: Barry Revzin
 bjarne_stroustrup:
   name: Bjarne Stroustrup
 bryce_adelstein_lelbach:
@@ -24,6 +26,8 @@ herb_sutter:
   name: Herb Sutter
 ivan_cukic:
   name: Ivan Čukić
+jeffrey_mendelsohn:
+  name: Jeffrey Mendelsohn
 kate_gregory:
   name: Kate Gregory
 mathieu_ropert:
@@ -32,5 +36,7 @@ michael_park:
   name: Michael Park
 nicolai_josuttis:
   name: Nicolai Josuttis
+robert_smallshire:
+  name: Robert Smallshire
 steven_simpson:
   name: Steven Simpson

@@ -55,6 +55,11 @@
       conf: cppcon
       youtube: PNRju6_yn3o
       year: 2017
+    - title: Get to grips with asyncio in Python 3
+      presenter: [robert_smallshire]
+      conf: ndc_london
+      youtube: M-UcUs7IMIM
+      year: 2017
 - topic:
     de: Produktionscode
     en: Production code
@@ -65,6 +70,11 @@
       conf: cppcon
       youtube: 0WgC5jnrRx8
       year: 2018
+    - title: "So, you inherited a large code base..."
+      presenter: [david_sankel]
+      conf: cppcon
+      youtube: B2XtqVZcSdM
+      year: 2017
 - topic:
     de: Datenverarbeitungsgeschwindigkeit
     en: Performance
@@ -86,10 +96,15 @@
       youtube: YQs6IC-vgmo
       year: 2012
 - topic:
-    de: Memory model
-    en: Memory model
-    hu: Memory model
+    de: Nebenläufigkeit
+    en: Concurrency
+    hu: Konkurrens programozás
   videos:
+    - title: "Reader-Writer Lock versus Mutex - Understanding a Lost Bet"
+      presenter: [jeffrey_mendelsohn]
+      conf: cppcon
+      youtube: KJS3ikoiLso
+      year: 2017
     - title: "C++ atomics: from basic to advanced. What do they really do?"
       presenter: [fedor_pikus]
       conf: cppcon
@@ -131,6 +146,16 @@
       conf: cppnow
       youtube: ysh2B6ZgNXk
       year: 2017
+- topic:
+    de: C++ Sprachenelemente
+    en: C++ language features
+    hu: C++ nyelvi elemek
+  articles:
+    - title: "Comparisons in C++20"
+      author: barry_revzin
+      url: "https://brevzin.github.io/c++/2019/07/28/comparisons-cpp20/"
+      journal: brevzin
+      year: 2019
 - topic:
     de: Template-Metaprogrammierung
     en: Template metaprogramming
