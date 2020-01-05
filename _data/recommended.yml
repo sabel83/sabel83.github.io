@@ -41,6 +41,11 @@
       journal: overload
       year: 2015
   videos:
+    - title: "A Series of Unfortunate Effects"
+      presenter: [robert_m_avram]
+      conf: lambda_world
+      youtube: y5jZnMImbMY
+      year: 2019
     - title: "Simplicity: Not Just For Beginners"
       presenter: [kate_gregory]
       conf: cppcon

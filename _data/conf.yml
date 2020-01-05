@@ -13,6 +13,9 @@ cppnow:
 going_native:
   name: GoingNative
   url: https://channel9.msdn.com/Shows/C9-GoingNative
+lambda_world:
+  name: Lambda World
+  url: http://www.lambda.world/
 meetingcpp:
   name: Meeting C++
   url: http://meetingcpp.com/
