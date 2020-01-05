@@ -2,6 +2,12 @@
     de: Fehlerbehandlung
     en: Error handling
     hu: Hibakezelés
+  articles:
+    - title: "The Most Diabolical Python Antipattern"
+      author: aaron_maxwell
+      url: "https://realpython.com/the-most-diabolical-python-antipattern/"
+      journal: real_python
+      year: 2014
   videos:
     - title: Seeing the bigger picture part I
       presenter: [andrzej_krzemienski]

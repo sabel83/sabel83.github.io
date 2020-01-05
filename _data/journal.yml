@@ -4,6 +4,9 @@ brevzin:
 overload:
   title: ACCU Overload
   url: "https://accu.org/index.php/journals/c78/"
+real_python:
+  title: Real Python
+  ur: "https://realpython.com/"
 simplify_cpp:
   title: Simplify C++
   url: "https://arne-mertz.de"
