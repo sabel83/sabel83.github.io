@@ -41,6 +41,11 @@
       journal: overload
       year: 2015
   videos:
+    - title: "The Smart Pointers I Wish I Had"
+      presenter: [matthew_fleming]
+      conf: cppcon
+      youtube: CKCR5eFVrmc
+      year: 2019
     - title: "A Series of Unfortunate Effects"
       presenter: [robert_m_avram]
       conf: lambda_world
