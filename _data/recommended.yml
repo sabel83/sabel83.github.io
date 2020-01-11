@@ -41,6 +41,11 @@
       journal: overload
       year: 2015
   videos:
+    - title: "Design Rationale for the chrono Library"
+      presenter: [howard_hinnant]
+      conf: meetingcpp
+      youtube: adSAN282YIw
+      year: 2019
     - title: "The Smart Pointers I Wish I Had"
       presenter: [matthew_fleming]
       conf: cppcon
