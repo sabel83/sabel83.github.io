@@ -178,6 +178,16 @@
       journal: brevzin
       year: 2019
 - topic:
+    de: Compilers
+    en: Compilers
+    hu: Fordítók
+  articles:
+    - title: "Beginner's Guide to Linkers"
+      author: david_drysdale
+      url: "https://www.lurklurk.org/linkers/linkers.html"
+      journal: lurklurk
+      year: 2005
+- topic:
     de: Template-Metaprogrammierung
     en: Template metaprogramming
     hu: Template metaprogramozás
