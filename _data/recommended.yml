@@ -30,6 +30,11 @@
     en: Code architecture
     hu: Kódszervezés
   articles:
+    - title: "Towards a standard unit systems library"
+      author: vincent_reverdy
+      url: "http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1930r0.pdf"
+      journal: wg21
+      year: 2019
     - title: "Use Stronger Types!"
       author: arne_mertz
       url: "https://arne-mertz.de/2016/11/stronger-types"
