@@ -46,6 +46,11 @@
       journal: overload
       year: 2015
   videos:
+    - title: "When C++ Style Guides Contradict"
+      presenter: [nicolai_josuttis]
+      conf: cppcon
+      youtube: WRQ1xqYBKgc
+      year: 2019
     - title: "Design Rationale for the chrono Library"
       presenter: [howard_hinnant]
       conf: meetingcpp
