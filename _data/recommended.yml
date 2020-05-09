@@ -46,6 +46,11 @@
       journal: overload
       year: 2015
   videos:
+    - title: "A Unifying Abstraction for Async in C++"
+      presenter: [eric_niebler, david_hollman]
+      conf: cppcon
+      youtube: tF-Nz4aRWAM
+      year: 2019
     - title: "When C++ Style Guides Contradict"
       presenter: [nicolai_josuttis]
       conf: cppcon
