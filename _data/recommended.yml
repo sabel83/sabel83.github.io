@@ -96,6 +96,11 @@
       conf: ndc_london
       youtube: M-UcUs7IMIM
       year: 2017
+    - title: "Using Types Effectively"
+      presenter: [ben_deane]
+      conf: cppcon
+      youtube: ojZbFIQSdl8
+      year: 2016
 - topic:
     de: Produktionscode
     en: Production code
