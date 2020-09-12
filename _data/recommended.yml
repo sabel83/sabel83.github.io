@@ -141,6 +141,11 @@
     en: Concurrency
     hu: Konkurrens programozás
   videos:
+    - title: "The C++20 Synchronization Library"
+      presenter: [bryce_adelstein_lelbach]
+      conf: meetingcpp
+      youtube: zoMZAV6FEbc
+      year: 2019
     - title: "Reader-Writer Lock versus Mutex - Understanding a Lost Bet"
       presenter: [jeffrey_mendelsohn]
       conf: cppcon
