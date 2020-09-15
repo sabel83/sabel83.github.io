@@ -202,6 +202,12 @@
       url: "https://brevzin.github.io/c++/2019/07/28/comparisons-cpp20/"
       journal: brevzin
       year: 2019
+  videos:
+    - title: "Back to Basics: Understanding Value Categories"
+      presenter: [ben_saks]
+      conf: cppcon
+      youtube: XS2JddPq7GQ
+      year: 2019
 - topic:
     de: Compilers
     en: Compilers
