@@ -46,6 +46,11 @@
       journal: overload
       year: 2015
   videos:
+    - title: "Time Travel: Applying Gradual Typing to Time Types with Clang's LibTooling"
+      presenter: [hyrum_wright]
+      conf: cppcon
+      youtube: VN0VNoykxtk
+      year: 2019
     - title: "A Unifying Abstraction for Async in C++"
       presenter: [eric_niebler, david_hollman]
       conf: cppcon
