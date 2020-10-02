@@ -10,6 +10,9 @@ cppcon:
 cppnow:
   name: C++Now
   url: http://cppnow.org/
+devternity:
+  name: DevTernity
+  url: https://devternity.com/
 going_native:
   name: GoingNative
   url: https://channel9.msdn.com/Shows/C9-GoingNative

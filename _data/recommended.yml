@@ -116,6 +116,11 @@
       conf: cppcon
       youtube: 0WgC5jnrRx8
       year: 2018
+    - title: "TDD, Where Did It All Go Wrong"
+      presenter: [ian_cooper]
+      conf: devternity
+      youtube: EZ05e7EMOLM
+      year: 2017
     - title: "So, you inherited a large code base..."
       presenter: [david_sankel]
       conf: cppcon
