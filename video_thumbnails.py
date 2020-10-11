@@ -19,7 +19,7 @@ def load_yaml(filename):
     """Parse the YAML file"""
     full_path = relative(os.path.join('_data', filename))
     with open(full_path, 'r') as in_f:
-        return yaml.load(in_f)
+        return yaml.load(in_f, Loader=yaml.SafeLoader)
 
 
 def video_links(doc):
