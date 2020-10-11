@@ -218,6 +218,11 @@
       conf: cppcon
       youtube: XS2JddPq7GQ
       year: 2019
+    - title: "Destructor Case Studies: Best Practices for Safe and Efficient Teardown"
+      presenter: [pete_isensee]
+      conf: cppcon
+      youtube: XvWyLAW_U0Q
+      year: 2019
 - topic:
     de: Compilers
     en: Compilers
