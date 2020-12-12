@@ -111,6 +111,11 @@
     en: Production code
     hu: Élesben használt kód
   videos:
+    - title: The Science of Unit Tests
+      presenter: [dave_steffen]
+      conf: cppcon
+      youtube: FjwayiHNI1w
+      year: 2020
     - title: Source Instrumentation for Monitoring C++ in Production
       presenter: [steven_simpson]
       conf: cppcon
