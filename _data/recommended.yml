@@ -46,6 +46,11 @@
       journal: overload
       year: 2015
   videos:
+    - title: "Back to Basics: Algebraic Data Types"
+      presenter: [arthur_o_dwyer]
+      conf: cppcon
+      youtube: OJzmWqCCZaM
+      year: 2020
     - title: "Time Travel: Applying Gradual Typing to Time Types with Clang's LibTooling"
       presenter: [hyrum_wright]
       conf: cppcon
